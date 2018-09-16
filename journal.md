@@ -65,6 +65,29 @@ like a simple method question asker that takes a set of questions, answers as ar
 
 an alert method that can alert all the correct answers at the end of the guessing game if we didn't want to interupt the game. 
 
+And now thinking it'd be better to branch here, one branch should continue on as I am, the split branch simplifies to pre made smalle objects, like
+
+firstObj = {
+
+country : 'Canada',
+correctAnswer : 'yes',
+boolCorrect : false,
+userGuess : prompt('have I been to' + this.country),
+attempts : [],
+correctMessage : 'yep, ive been to Canada',
+wrongMessage : 'sorry, guess again',
+hints : ['maple syrup', 'hockey','moose'],
+
+}
+
+firstObj.prototype.askerFunction = {
+    if (if userGuess.includes(correctAnswer)){
+    this.boolCorrect = true;
+    this.attempts++;
+    }
+
+that sort of thing.    
+
 
 
 
