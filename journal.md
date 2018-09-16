@@ -42,3 +42,29 @@ CorrectAnswer : correctAnswer;
 }
 
 }
+
+
+maybe best would be to have each the each way would have pros and cons 
+but I want objects in objects in the first place so that I can call everything through one single . notation access
+
+examples 
+
+does bigObj.firstSmallObj.correctanswer = bigObj.firstSmallObj.userGues ?
+
+if so set bigObj.firstSmallobj.boolTruth = true from a defualt of hardcoded false.
+
+do any of the small objects include userGuess?
+
+How many smallobjects have their boolTruth === true, append that return to total bigobject totalcorrect
+
+So i can call methods through dot notation to that be called on any of the small objects or their contents.
+
+a simple method that you can call on a set of questions and itll return a this.big or small object tracker of the user response. Thatll be passed to boolTruth checkers, as arguments alongside the right answer arguments.
+
+like a simple method question asker that takes a set of questions, answers as arguments, compares them and alter the appropriate this.properties, like this.bigObject or this.smallObject boolTruth. 
+
+an alert method that can alert all the correct answers at the end of the guessing game if we didn't want to interupt the game. 
+
+
+
+
