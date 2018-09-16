@@ -86,7 +86,13 @@ firstObj.prototype.askerFunction = {
     this.attempts++;
     }
 
-that sort of thing.    
+that sort of thing.  
+
+
+... ok, in simpleObjectBranch i now have firstObj.userGuess call a function that simply prompts them and returns their response using this.country
+
+something to consider is that i think userGuess automatically will call this function, so maybe I could protect this through a clozure? so that it is only called when I want? in other words when I --- firstObj.userGuess --- then it calls askerFunction
+  
 
 
 
