@@ -98,4 +98,5 @@ something to consider is that i think userGuess automatically will call this fun
 On the 17th and 18th I continued to work on the functionality of my about me guessing game, i've solved good chunks of the logic and now need to organize that logic in Javascript. And I need to link it up to some basic html and css.
 
 
+Today I made some more progress with my multiple choice guessing... As well as good progress on lab5.
 
